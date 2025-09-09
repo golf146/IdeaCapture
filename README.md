@@ -1,4 +1,4 @@
-# IdeaCapture (Abandoned Project / 已停止维护)
+# IdeaCapture 
 
 > EN: IdeaCapture is an experimental iOS app built with **SwiftUI + SpriteKit**, designed to capture and visualize ideas.  
 > CN: IdeaCapture 是一个使用 **SwiftUI + SpriteKit** 构建的实验性 iOS 应用，主要用于灵感捕捉与可视化管理。  
