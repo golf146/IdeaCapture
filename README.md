@@ -210,13 +210,6 @@ IdeaCapture/
 
 ---
 
-## 📜 License / 许可证
-- **MIT License**  
-  - EN: You may use, modify, and distribute freely, but must keep original copyright.  
-  - CN: 可自由使用、修改和分发，但必须保留原始版权声明。  
-
----
-
 ## ⚠️ Status / 状态
 - EN: This project is **abandoned**, but serves as a reference for SwiftUI + SpriteKit integration, notifications, calendar, and Live Activities.  
 - CN: 本项目 **已弃坑**，但可作为 SwiftUI + SpriteKit 集成、通知、日历和灵动岛的参考示例。  
