@@ -21,9 +21,9 @@
     **BubbleScene**：SpriteKit 物理气泡（DVD 弹跳 / 重力模式）
 
   <div>
-    <img src="Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.51.01.png" width="260">
-    <img src="Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.51.05.png" width="260">
-    <img src="Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.51.08.png" width="260">
+    <img src="photo/Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.51.01.png" width="260">
+    <img src="photo/Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.51.05.png" width="260">
+    <img src="photo/Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.51.08.png" width="260">
   </div>
 
 - 🔔 **Notifications & Calendar / 通知与日历**
@@ -45,12 +45,12 @@
     高级选项：截止日期、灵动岛、通知  
 
   <div>
-    <img src="Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.38.png" width="260">
-    <img src="Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.20.png" width="260">
-    <img src="Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.15.png" width="260">
-    <img src="Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.13.png" width="260">
-    <img src="Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.11.png" width="260">
-    <img src="Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.02.png" width="260">
+    <img src="photo/Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.38.png" width="260">
+    <img src="photo/Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.20.png" width="260">
+    <img src="photo/Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.15.png" width="260">
+    <img src="photo/Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.13.png" width="260">
+    <img src="photo/Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.11.png" width="260">
+    <img src="photo/Simulator%20Screenshot%20-%2016%2018.3%20-%202025-09-09%20at%2011.50.02.png" width="260">
   </div>
 
 - ⚙️ **Settings & Developer Mode / 设置与开发者模式**
@@ -155,6 +155,58 @@ IdeaCapture/
   无数据迁移逻辑，版本升级可能丢失数据  
 - Some features only available on iOS 16.1+  
   部分功能仅限 iOS 16.1+  
+- 云端上传 / 服务器交互功能未公开 → 功能残缺状态
+
+---
+
+## 📲 Installation / 安装与运行说明
+
+1. 克隆本仓库并在 Xcode 中打开：  
+   ```bash
+   git clone https://github.com/JackieZ123430/IdeaCapture.git
+   cd IdeaCapture
+   open IdeaCapture.xcodeproj
+   ```
+
+2. **开发环境说明**  
+   - 本项目开发于 **Xcode 26 beta 4**  
+   - 可以在 **更高版本或正式版 Xcode** 中正常打开与运行  
+   - 运行环境要求：**iOS 18 – iOS 26**
+
+3. **功能说明**  
+   - 本地功能（点子管理、项目管理、气泡可视化、通知、灵动岛倒计时等）均可正常使用  
+   - **部分依赖服务器的功能（云端上传、账号验证等）目前未公开** → 功能不可用，后续可能开放  
+
+4. **开发者模式**  
+   - 原本通过 **双击版本号 7 次** 解锁的逻辑已被禁用  
+   - 如需使用开发者工具，请直接在代码中手动开启：  
+     ```swift
+     @AppStorage("DebugEnabled") private var debugEnabled: Bool = true
+     ```
+
+---
+
+## 📖 Contributing / 贡献
+
+- 本项目已停止维护，**Pull Request 不再主动合并**。  
+- 欢迎 fork 本仓库，用于个人学习或扩展功能。  
+- 请遵守 [MIT License](./LICENSE)。
+
+---
+
+## 📝 Changelog / 更新记录
+
+### v1.0.0 (2025-09-09)
+- 初始开源版本  
+- 包含点子管理、BubbleScene、通知、日历、灵动岛功能  
+- 云端上传功能未公开  
+
+---
+
+## 🙏 Acknowledgements / 致谢
+- Apple 官方文档（SwiftUI / SpriteKit / ActivityKit / EventKit / UserNotifications）  
+- GitHub Actions for iOS CI/CD  
+- 参考灵感来自 Things、Notion 等效率应用  
 
 ---
 
