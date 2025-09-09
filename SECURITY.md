@@ -7,7 +7,7 @@ This project is **abandoned** and no longer actively maintained.
 
 | Version   | Supported          |
 | --------- | ------------------ |
-| >= 1.0.0  | :x: (no updates)   |
+| >= 1.0.0  | :x: (may updates)   |
 | < 1.0.0   | :x: (no updates)   |
 
 ---
