@@ -150,10 +150,7 @@ IdeaCapture/
 ---
 
 ## 🚧 Known Limitations / 已知限制
-- Mock login API (`APIService`) not connected to real backend  
-  登录 API 为 mock 接口，无真实后端  
-- No migration logic for persisted data  
-  无数据迁移逻辑，版本升级可能丢失数据  
+
 - Some features only available on iOS 16.1+  
   部分功能仅限 iOS 16.1+  
 - 云端上传 / 服务器交互功能未公开 → 功能残缺状态
