@@ -165,6 +165,24 @@ IdeaCapture/
   - Idea upload & sync / 点子上传与同步  
   - User login & project binding / 用户登录与项目绑定  
 
+### Database / 数据库
+- Database name: `ideaapi_jackiezy`  
+- Tables:
+  - `projects` → 存放项目基本信息  
+  - `project_opinions` → 存放项目意见/反馈  
+  - `snapshots` → 存放项目快照  
+  - `users` → 存放用户信息（仅示例用户，无真实数据）
+
+### 导入方法
+1. 创建数据库：
+   ```bash
+   CREATE DATABASE ideaapi_jackiezy CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+   ```
+2. 导入结构和示例数据：
+   ```bash
+   mysql -u root -p ideaapi_jackiezy < web-backend/ideaapi_jackiezy.sql
+   ```
+
 ---
 
 ## 📲 Installation / 安装与运行说明
@@ -208,6 +226,7 @@ IdeaCapture/
 - 初始开源版本  
 - 包含点子管理、BubbleScene、通知、日历、灵动岛功能  
 - 云端上传功能未公开  
+- 新增 Web Backend（PHP + MySQL，含数据库结构 `ideaapi_jackiezy`）
 
 ---
 
@@ -219,5 +238,5 @@ IdeaCapture/
 ---
 
 ## ⚠️ Status / 状态
-- EN: This project is **abandoned**, but serves as a reference for SwiftUI + SpriteKit integration, notifications, calendar, and Live Activities.  
-- CN: 本项目 **已弃坑**，但可作为 SwiftUI + SpriteKit 集成、通知、日历和灵动岛的参考示例。  
+- EN: This project is **abandoned**, but serves as a reference for SwiftUI + SpriteKit + PHP/MySQL integration.  
+- CN: 本项目 **已弃坑**，但可作为 SwiftUI + SpriteKit + PHP/MySQL 集成的参考示例。  
