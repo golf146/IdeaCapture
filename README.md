@@ -143,7 +143,8 @@ IdeaCapture/
 ├── CalendarManager.swift      # EventKit integration / 日历
 ├── LiveActivityManager.swift  # ActivityKit wrapper / 灵动岛封装
 ├── APIService.swift           # Mock login API / 登录接口
-└── NewWidgetExtension/        # Widget + Live Activity extension / 小组件
+├── NewWidgetExtension/        # Widget + Live Activity extension / 小组件
+└── web-backend/               # 后端网站（PHP + MySQL）
 ```
 
 ---
@@ -156,6 +157,16 @@ IdeaCapture/
 - Some features only available on iOS 16.1+  
   部分功能仅限 iOS 16.1+  
 - 云端上传 / 服务器交互功能未公开 → 功能残缺状态
+
+---
+
+## 🌐 Web Backend / 网站后端
+
+- Located in `/web-backend`  
+- Built with **PHP + MySQL**  
+- Provides planned API endpoints for:  
+  - Idea upload & sync / 点子上传与同步  
+  - User login & project binding / 用户登录与项目绑定  
 
 ---
 
@@ -190,7 +201,7 @@ IdeaCapture/
 
 - 本项目已停止维护，**Pull Request 不再主动合并**。  
 - 欢迎 fork 本仓库，用于个人学习或扩展功能。  
-- 请遵守 [MIT License](./LICENSE)。
+- 请遵守 [Apache License 2.0](./LICENSE)。
 
 ---
 
